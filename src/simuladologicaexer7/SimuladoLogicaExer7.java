@@ -41,7 +41,7 @@ public class SimuladoLogicaExer7 {
                 System.out.println("Preço com desconto: "+desconto+" R$.");
                 System.out.println("Preço sem desconto: "+precoGasolina+" R$.");
             } 
-            if(opcao == 2){
+        }else{
             System.out.println("Informe a quantidade de álcool abastecida:");
                 quantidadeAlcool = teclado.nextInt();
                 
@@ -62,6 +62,5 @@ public class SimuladoLogicaExer7 {
         }
         
         
-    }
     
 }
